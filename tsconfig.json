@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-grapesjs": [
+        "dist/ng-grapesjs"
+      ],
+      "ng-grapesjs/*": [
+        "dist/ng-grapesjs/*"
+      ],
+      "ng-grapesjs-lib": [
+        "dist/ng-grapesjs-lib"
+      ],
+      "ng-grapesjs-lib/*": [
+        "dist/ng-grapesjs-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
